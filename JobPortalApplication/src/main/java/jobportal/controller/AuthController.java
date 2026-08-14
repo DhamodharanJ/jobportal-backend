@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.*;
 @Tag(name = "Authentication", description = "User registration and login endpoints")
 public class AuthController {
    // checking pull request from main branch
+
+    //write the code in main branch for stack purpose
     private final AuthService authService;
 
     public AuthController(AuthService authService) {
