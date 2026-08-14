@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/auth")
 @Tag(name = "Authentication", description = "User registration and login endpoints")
 public class AuthController {
-
+   // checking the new branch changes
     private final AuthService authService;
 
     public AuthController(AuthService authService) {
